@@ -17,7 +17,7 @@ class DetectorAmbienteLocal:
     Detector de ambiente usando DeepSeek SLM rodando localmente via Ollama
     """
     
-    def __init__(self, modelo: str = "deepseek-r1:1.5b", ollama_url: str = "http://localhost:11434"):
+    def __init__(self, modelo: str = "deepseek-r1:1.5b", ollama_url: str = "http://localhost:11500"):
         """
         Inicializa o detector local
         
